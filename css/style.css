@@ -310,6 +310,10 @@ a {
     padding: 3rem;
 }
 
+.site-footer .contenedor {
+    margin-bottom: 0;
+}
+
 .site-footer p {
     color: white;
     font-size: 4rem;
@@ -374,3 +378,22 @@ a {
 
 
 /* CONTACTO FIN */
+
+
+/* ENTRADA INICIO */
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox .imagen {
+    width: calc(60% - 1rem);
+}
+
+.flexbox .contenido-blog {
+    width: calc(40% - 1rem);
+}
+
+
+/* ENTRADA FIN */
